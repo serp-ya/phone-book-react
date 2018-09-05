@@ -11,7 +11,7 @@ import {
 
 
 const history = createHistory();
-
+ 
 class App extends Component {
   componentDidMount() {
     this.props.reduxInitApp();
